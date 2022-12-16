@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.HelloController">
+   <children>
+      <Label layoutX="269.0" layoutY="49.0" text="Heros">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Avatar layoutX="70.0" layoutY="200.0" />
+      <Avatar layoutX="88.0" layoutY="114.0" />
+      <Avatar layoutX="421.0" layoutY="132.0" />
+      <Avatar layoutX="433.0" layoutY="227.0" />
+   </children>
+</AnchorPane>
